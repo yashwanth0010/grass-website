@@ -17,7 +17,7 @@ pipeline
                 steps
                 {
                     echo "In Building stage"
-                    sh 'ls'
+                    bat 'ls'
                     
                 }
             }
