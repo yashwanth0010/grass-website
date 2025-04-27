@@ -12,7 +12,14 @@ pipeline
                 }   
                 
             }
+            stage("Building")
+            {
+                steps
+                {
+                    echo "In Buildnig stage"
+                }
+            }
         }
-        
+
     
 }
