@@ -16,8 +16,9 @@ pipeline
             {
                 steps
                 {
-                    echo "In Buildnig stage"
-                    sh 'ls -al'
+                    echo "In Building stage"
+                    sh 'ls'
+                    
                 }
             }
         }
