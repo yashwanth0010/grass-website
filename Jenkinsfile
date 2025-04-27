@@ -17,6 +17,7 @@ pipeline
                 steps
                 {
                     echo "In Buildnig stage"
+                    sh 'cat .gitignore'
                 }
             }
         }
