@@ -26,7 +26,7 @@ pipeline
             {
                 steps
                 {
-                    powershell 'winget install Hugo.Hugo.Extended'
+                    powershell 'choco install hugo-extended'
                     powershell 'hugo server'
                 }
             }
