@@ -18,7 +18,15 @@ pipeline
                 {
                     echo "In Building stage"
                     powershell 'ls'
+
                     
+                }
+            }
+            stage("Running")
+            {
+                steps
+                {
+                    powershell 'hugo'
                 }
             }
         }
